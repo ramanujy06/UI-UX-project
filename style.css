@@ -1,0 +1,82 @@
+body {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    font-family: 'Poppins', sans-serif;
+     background:url("3.jpg");
+}
+#name
+{
+font-size:19px;
+color:rgba(211,222,233,1.0);
+background:rgba(1,22,3,.3);
+}
+#form {
+    width: 350px;
+    height:530px;
+    margin: 10vh auto 0 auto;
+    padding: 10px;
+    background-color:rgba(112,122,11,.2);
+    
+    border-radius: 4px;
+    font-size: 12px;
+}
+#aa
+{
+text-decoration:none;
+}
+
+#form h1 {
+    color: red;
+    text-align: center;
+    font-size:30px;
+}
+
+#form button {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    background-color: rgb(41, 57, 194);
+    border: none;
+    border-radius: 4px;
+}
+hover #bb
+{
+background-color: rgb(41, 5, 194);
+ color: green;
+}
+.input-control {
+    display: flex;
+    flex-direction: column;
+    background-color:rgba(1,233,223,.2);
+}
+
+.input-control input {
+    border: 2px solid #f0f0f0;
+	border-radius: 4px;
+	display: block;
+	font-size: 12px;
+	padding: 10px;
+	width: 100%;
+}
+
+.input-control input:focus {
+    outline: 0;
+}
+
+.input-control.success input {
+    border-color: #09c372;
+}
+
+.input-control.error input {
+    border-color:#fff860;
+}
+
+.input-control .error {
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+}
+.container
+{
+padding:5px;
+}
